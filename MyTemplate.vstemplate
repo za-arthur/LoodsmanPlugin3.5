@@ -1,0 +1,32 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>LoodsmanPluginV2 3.5</Name>
+    <Description>&lt;Нет описания&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>LoodsmanPluginV2 3.5</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="LoodsmanPluginV2 3.5.csproj" File="LoodsmanPluginV2 3.5.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="DllExportAttribute.cs">DllExportAttribute.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Entry.cs">Entry.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Utilities" TargetFolderName="Utilities">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Ask.dll">Ask.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="BOSimple.dll">BOSimple.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="DllExport.exe">DllExport.exe</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="LoodsmanDotNet.dll">LoodsmanDotNet.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="PDMObjects.dll">PDMObjects.dll</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
